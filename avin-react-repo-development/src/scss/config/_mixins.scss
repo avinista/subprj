@@ -1,0 +1,84 @@
+//===================create element============================
+@mixin el($name) {
+    &__#{$name} {
+        @content;
+    }
+}
+
+//=====================create modifier===============================
+@mixin mod($name) {
+    &--#{$name} {
+        @content;
+    }
+}
+
+//===================color - appearance=====================================
+@mixin color-appear($background, $color) {
+    background-color: $background;
+    color: $color;
+}
+
+//===================assiegn display flex=============================
+@mixin flex-dis($dir, $algin:null, $jus:null) {
+    display: flex;
+    flex-direction: $dir;
+    align-items: $algin;
+    justify-content: $jus;
+}
+
+//====================================================================
+@mixin dim($w, $h) {
+    width: $w;
+    height: $h;
+}
+
+//===============================font face===========================================
+@mixin font-face($name, $file) {
+    @font-face {
+        font-family: "#{$name}";
+        src: url("/public/fonts/#{$file}.eot");
+        src: url("/public/fonts/#{$file}.eot?#iefix") format("embedded-opentype"),
+        url("/public/fonts/#{$file}.woff") format("woff"),
+        url("/public/fonts//#{$file}.ttf") format("truetype"),
+    }
+}
+
+//==========================media query ===========================================
+@mixin for-phone-only {
+    @media (max-width: map-get($breakpoints, xs)) {
+        @content;
+    }
+}
+
+@mixin for-tablet-portrait {
+    @media (max-width: map-get($breakpoints, sm)) {
+        @content;
+    }
+}
+
+@mixin for-tablet-landscape {
+    @media (min-width: map-get($breakpoints, md)) {
+        @content;
+    }
+}
+
+@mixin for-desktop {
+    @media (min-width: map-get($breakpoints, lg)) {
+        @content;
+    }
+}
+
+//==============set image for div background====================================
+@mixin set-image($name,
+$h,
+$w,
+$size,
+$format) {
+    background-image: url("#{$img-path}/#{$name}.#{$format}");
+    width: $w;
+    height: $h;
+    background-repeat: no-repeat;
+    background-size: $size;
+}
+
+//========================font-family and fontsize===============================

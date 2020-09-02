@@ -1,0 +1,23 @@
+[
+	{"AssetCategory":"اطلاعات و مستندات","RiskLevel":"Critical","CountOfRiskLevel":159},
+	{"AssetCategory":"اطلاعات و مستندات","RiskLevel":"High","CountOfRiskLevel":771},
+	{"AssetCategory":"اطلاعات و مستندات","RiskLevel":"Low","CountOfRiskLevel":787},
+	{"AssetCategory":"خدمات و سرویسهاي اجرایی","RiskLevel":"Critical","CountOfRiskLevel":457},
+	{"AssetCategory":"خدمات و سرویسهاي اجرایی","RiskLevel":"High","CountOfRiskLevel":634},
+	{"AssetCategory":"خدمات و سرویسهاي اجرایی","RiskLevel":"Low","CountOfRiskLevel":83},
+	{"AssetCategory":"سخت افزار","RiskLevel":"Critical","CountOfRiskLevel":144},
+	{"AssetCategory":"سخت افزار","RiskLevel":"High","CountOfRiskLevel":658},
+	{"AssetCategory":"سخت افزار","RiskLevel":"Low","CountOfRiskLevel":2139},
+	{"AssetCategory":"فرآیندهای اجرایی","RiskLevel":"Critical","CountOfRiskLevel":45},
+	{"AssetCategory":"فرآیندهای اجرایی","RiskLevel":"High","CountOfRiskLevel":212},
+	{"AssetCategory":"فرآیندهای اجرایی","RiskLevel":"Low","CountOfRiskLevel":103},
+	{"AssetCategory":"محیط  فیزیکی","RiskLevel":"Critical","CountOfRiskLevel":15},
+	{"AssetCategory":"محیط  فیزیکی","RiskLevel":"High","CountOfRiskLevel":248},
+	{"AssetCategory":"محیط  فیزیکی","RiskLevel":"Low","CountOfRiskLevel":405},
+	{"AssetCategory":"نرم افزار","RiskLevel":"Critical","CountOfRiskLevel":172},
+	{"AssetCategory":"نرم افزار","RiskLevel":"High","CountOfRiskLevel":304},
+	{"AssetCategory":"نرم افزار","RiskLevel":"Low","CountOfRiskLevel":264},
+	{"AssetCategory":"نیروی انسانی","RiskLevel":"Critical","CountOfRiskLevel":98},
+	{"AssetCategory":"نیروی انسانی","RiskLevel":"High","CountOfRiskLevel":698},
+	{"AssetCategory":"نیروی انسانی","RiskLevel":"Low","CountOfRiskLevel":1409}
+]

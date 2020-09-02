@@ -1,0 +1,8 @@
+.dashboard__title {
+  background-color: #ff9900;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #b36b00;
+  border-radius: 5px;
+}

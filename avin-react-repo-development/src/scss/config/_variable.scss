@@ -1,0 +1,41 @@
+//font family=======================================
+$fontfamily: "Shabnam",
+Tahoma,
+Verdana,
+sans-serif;
+;
+//font size=========================================
+$default--font: 16px;
+$font-size-small: 14px;
+$font-size-medium: 20px;
+$font-size-larg: 28px;
+$font-weight--small: 300;
+$font-weight--meduim: 400;
+$font-weight--larg: 600;
+$default-line-height: 1.4;
+//============color=================================
+$primery-color :#4d4d4d;
+$valid-color:#55c57a;
+$invalid-color:#ff3333;
+//==============gray================================
+$color-gray-light-1:#faf9f9;
+$color-gray-light-2:#f4f2f2;
+$color-gray-light-3:#f0eeee;
+$color-gray-light-4:#ccc;
+$color-gray-dark-1:#333;
+$color-gray-dark-2:#777;
+$color-gray-dark-3:#999;
+//===================blue color ================================
+$color-blue-light-1: #b3e0ff;
+$color-blue-dark-1: #004d80;
+$color-blue-dark-2: #0099ff;
+//back-ground color---------------------------------------------
+$back-color: (
+    default: #ffff, backdrow :rgba(38, 38, 38, .7),
+ linkHover-background: #e71939,  linkHover-color :#ffff,  linkHover-focus: #ffff
+ , btn-shadow: #95042f);
+//font color========================================
+//media query=======================================
+$breakpoints: (xs: 576px, sm: 768px, md: 992px, lg: 1200px);
+// path==================================================
+$img-path: '../../images';

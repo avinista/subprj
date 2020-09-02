@@ -1,0 +1,46 @@
+.Tab__appbar{
+    border-radius: 5px 5px 0 0;
+
+   }
+
+.card{
+    position: relative;
+    @include el(title) {
+        z-index: 10;
+        position: absolute;
+        top:10px;
+        right:30px;
+        padding:5px 40px;
+        border:1px solid #e6b800;
+        border-radius: 10px;
+        box-shadow:7px 7px 20px 2px  #fff5cc ;
+        background-color:  #ffd633;
+        color:#2e5cb8;
+    }
+
+}   
+.papers-container{
+transform: translateY(-15%);
+     
+}
+.header{
+    position: relative;
+    background-image: url('./../../assets/img/online1.png');
+    height: 100px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius:10px;
+    @include el(title) {
+        z-index: 10;
+        position: absolute;
+        top:10px;
+        right:30px;
+        padding:5px 40px;
+        border:1px solid #e6b800;
+        border-radius: 10px;
+        box-shadow:7px 7px 20px 2px  #fff5cc ;
+        background-color:  #ffd633;
+        color:#2e5cb8;
+    }
+
+}
