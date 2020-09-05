@@ -22,6 +22,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
+// expand components chart in main dashboard when clicked
 export default function Chartresize({data,title,type}) {
   const classes = useStyles();
   const [open, setOpen] = React.useState(true);

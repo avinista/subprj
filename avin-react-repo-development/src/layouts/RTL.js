@@ -101,7 +101,7 @@ export default function RTL({ ...rest }) {
         rtlActive
         {...rest}
       />
-      <div className={classes.mainPanel} ref={mainPanel}>
+      <div className={classes.mainPanel}  ref={mainPanel}>
         <Navbar
           routes={areaRoutes}
           handleDrawerToggle={handleDrawerToggle}

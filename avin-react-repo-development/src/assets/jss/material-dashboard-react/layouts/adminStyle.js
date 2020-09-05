@@ -9,6 +9,7 @@ const appStyle = theme => ({
     position: "relative",
     top: "0",
     height: "100vh"
+
   },
   mainPanel: {
     [theme.breakpoints.up("md")]: {
@@ -21,6 +22,7 @@ const appStyle = theme => ({
     maxHeight: "100%",
     width: "100%",
     overflowScrolling: "touch"
+
   },
   content: {
     marginTop: "70px",

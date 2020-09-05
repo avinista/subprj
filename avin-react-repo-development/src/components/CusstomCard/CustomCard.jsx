@@ -27,12 +27,15 @@ const useStyles = makeStyles({
     marginBottom: 12
   }
 });
-
+//get url from props 
 const handleClick = (e,url) => {
 e.preventDefault();
 history.push(url);
 
 }
+
+//create custom card used component in ITVIEWS
+//color , text , url get from  routes.js
 export function Customcard({ text, color,url }) {
   const classes = useStyles();
 

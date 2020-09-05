@@ -9,7 +9,8 @@ const appStyle = theme => ({
     position: "relative",
     top: "0",
     height: "100vh",
-    direction: "rtl"
+    direction: "rtl",
+    backgroundImage:`url(${'./../../../img/background.png'})`
   },
   mainPanel: {
     [theme.breakpoints.up("md")]: {
