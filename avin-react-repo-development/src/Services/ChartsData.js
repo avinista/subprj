@@ -3,18 +3,19 @@ export const Homepage_Bar = {
   datasets: [
     {
       label: ["قراردادی"],
-      backgroundColor: ["rgba(75,192,192,1)"],
+      backgroundColor: ["#0277bd","#0277bd","#0277bd"],
       borderColor: "rgba(0,0,0,1)",
       borderWidth: 2,
       data: [145, 250, 162]
     },
     {
       label: ["شرکتی"],
-      backgroundColor: ["rgba(251,51,0,1)"],
+      backgroundColor: ["#e91e63","#e91e63","#e91e63"],
       borderColor: "rgba(0,0,0,1)",
       borderWidth: 2,
       data: [110, 200, 195]
     }
+    
   ]
 };
 
@@ -26,7 +27,7 @@ export const Homepage_Line = {
       fill: false,
       lineTension: 0.5,
       backgroundColor: "rgba(75,192,192,1)",
-      borderColor: "rgba(0,0,0,1)",
+      borderColor: "#c2185b",
       borderWidth: 2,
       data: [65, 59, 80, 81, 56]
     }
@@ -38,7 +39,7 @@ export const Homepage_Pie = {
   datasets: [
     {
       label: "Rainfall",
-      backgroundColor: ["#B21F00", "#C9DE00"],
+      backgroundColor: ["#ff5252", "#00b0ff"],
       hoverBackgroundColor: ["#501800", "#4B5000"],
       data: [65, 59]
     }

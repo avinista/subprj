@@ -52,19 +52,25 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
   },
 }));
+const tabsStyle =  {
+  color:"#212121",
+  fontFamily: "BTitrBold,'BTitrBold',tahoma",
+  fontSize:"11px",
 
+}
 const Styles = makeStyles((theme) => ({
   root: {
     width: '100%',
     '& > * + *': {
       marginTop: theme.spacing(2),
     },
+   
   },
 }));
 
 export function Events() {
   const classes = useStyles();
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = React.useState(1);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -73,13 +79,13 @@ export function Events() {
   return (
     <div className={classes.root}>
       <AppBar position="static" className="Tab__appbar">
-        <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
-          <Tab label="سرویس رویدادها" {...a11yProps(0)} />
-          <Tab label="سرویس رخدادها" {...a11yProps(1)} />
-          <Tab label="سرویس مشکلات" {...a11yProps(2)} />
+        <Tabs value={value} onChange={handleChange} aria-label="simple tabs example" style={{backgroundColor:"#ffb84d"}} >
+          <Tab style={tabsStyle} label=" رویدادها" {...a11yProps(0)} />
+          <Tab style={tabsStyle}  label=" رخدادها" {...a11yProps(1)} />
+          <Tab style={tabsStyle}  label=" مشکلات" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
-      <TabPanel value={value} index={0}>
+      <TabPanel  className={classes.tabs} value={value} index={0}>
           { event.map(row => (<Alert style={{marginBottom:"5px"}} severity="info">{row}</Alert>))}
       </TabPanel>
       <TabPanel value={value} index={1}>

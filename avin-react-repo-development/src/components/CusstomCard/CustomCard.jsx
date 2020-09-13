@@ -25,6 +25,11 @@ const useStyles = makeStyles({
   },
   pos: {
     marginBottom: 12
+  },
+  hover: {
+    "&:hover": {
+      backgroundColor: 'rgb(7, 177, 77, 0.42)'
+    }
   }
 });
 //get url from props 
@@ -40,14 +45,14 @@ export function Customcard({ text, color,url }) {
   const classes = useStyles();
 
   return (
-    <Card style={{ backgroundColor: color }} className={classes.root}>
+    <Card style={{ backgroundColor: color,border:"1px solid #ffe0b2" }} className={classes.root}>
       <CardContent>
         <Typography variant="p" component="p">
           {text}
         </Typography>
       </CardContent>
       <CardActions>
-        <Button onClick={e=>handleClick(e,url)} size="small">جزییات</Button>
+        <Button style={{color:"#f57c00"}}onClick={e=>handleClick(e,url)} size="small">جزییات</Button>
       </CardActions>
     </Card>
    );

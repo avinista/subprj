@@ -2,7 +2,7 @@
 .nav-Items {
     @include flex-dis(column, null, space-between);
     z-index: 100;
-    background-color: #ff6600;
+    background-color:#ffa726;
     width: 92%;
     margin: 20px auto;
     border-radius:5px;
@@ -10,7 +10,7 @@
 
     
     @include el(icon) {
-        color:#ccc;
+        color:$color-yellow-dark-1;
         font-size:12px;
         margin-left: 15px;
     }
@@ -37,7 +37,7 @@
 }
 
 .submenu{
-    background-color:#262626;
+    background-color:$color-gray-dark-2;
     margin: 0;
     padding: 0;
    ul {
@@ -47,22 +47,22 @@
 }
 
 .nav-item-layer{
-    background-color: #ffb84d;
+    background-color: $color-yellow-dark-1;
 
 }
 .nav-item-layer a{
- color :black;
+ color :$color-gray-dark-1;
  display: flex;
         justify-content: flex-start;
         align-items:center;
  &:focus {
-    color: #262626
+    color: $color-gray-dark-1
 
   }
 }
 .nav-item-layer ul{
   
-    background-color:#f2f2f2;
+    background-color:$color-gray-light-2;
     width:100%;
 
    }
@@ -71,3 +71,11 @@
 
    }
  
+.logo__title{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: BTitrBold,'BTitrBold',tahoma;
+    font-size:16px;
+    font-weight:700;
+}

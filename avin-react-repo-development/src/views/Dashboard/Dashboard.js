@@ -24,6 +24,7 @@ const useStyles = makeStyles(styles);
 export default function Dashboard() {
 
   const classes = useStyles();
+  
   const [modalline, setmodalline] = useState(false);
   const [modalbar, setmodalbar] = useState(false);
   const [modalpie, setmodalpie] = useState(false);

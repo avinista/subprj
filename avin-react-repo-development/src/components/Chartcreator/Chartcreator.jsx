@@ -16,7 +16,7 @@ const chartcreator = ({ type, data, title }) => {
     }
   };
 
-  return <div >{componentSelector(type, data, title)}</div>;
+  return <div style={{marginBottom:"10px"}}>{componentSelector(type, data, title)}</div>;
 };
 
 export default chartcreator;

@@ -3,13 +3,13 @@
   flex-direction: column;
   justify-content: space-between;
   z-index: 100;
-  background-color: #ff6600;
+  background-color: #ffa726;
   width: 92%;
   margin: 20px auto;
   border-radius: 5px;
   padding: 3px 0; }
   .nav-Items__icon {
-    color: #ccc;
+    color: #ffb84d;
     font-size: 12px;
     margin-left: 15px; }
   .nav-Items__list {
@@ -40,12 +40,12 @@
   background-color: #ffb84d; }
 
 .nav-item-layer a {
-  color: black;
+  color: #333;
   display: flex;
   justify-content: flex-start;
   align-items: center; }
   .nav-item-layer a:focus {
-    color: #262626; }
+    color: #333; }
 
 .nav-item-layer ul {
   background-color: #f2f2f2;
@@ -53,6 +53,14 @@
 
 .nav-item-layer li {
   list-style-type: none; }
+
+.logo__title {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: BTitrBold,'BTitrBold',tahoma;
+  font-size: 16px;
+  font-weight: 700; }
 
 .Tab__appbar {
   border-radius: 5px 5px 0 0; }
@@ -67,7 +75,7 @@
     padding: 5px 40px;
     border: 1px solid #e6b800;
     border-radius: 10px;
-    box-shadow: 7px 7px 20px 2px  #fff5cc;
+    box-shadow: 2px 2px 20px 2px #fff5cc;
     background-color: #ffd633;
     color: #2e5cb8; }
 
@@ -79,7 +87,7 @@
   background-image: url("./../../assets/img/online1.png");
   height: 100px;
   width: 100%;
-  border: 1px solid #ccc;
+  border: 1px solid #ffb84d;
   border-radius: 10px; }
   .header__title {
     z-index: 10;
@@ -89,7 +97,7 @@
     padding: 5px 40px;
     border: 1px solid #e6b800;
     border-radius: 10px;
-    box-shadow: 7px 7px 20px 2px  #fff5cc;
+    box-shadow: 7px 7px 20px 2px #fff5cc;
     background-color: #ffd633;
     color: #2e5cb8; }
 
@@ -97,12 +105,15 @@
   color: #424242; }
 
 .dashboard__title {
-  background-color: #ff9900;
+  background-color: #ffd54f;
   text-align: center;
+  font-weight: 700;
   padding: 5px;
   margin: 10px;
-  border: 1px solid  #b36b00;
-  border-radius: 5px; }
+  border: 1px solid  #ffb300;
+  color: #424242;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px 1px #737373; }
 
 .chartjs-render-monitor {
   width: 400px;
@@ -110,6 +121,9 @@
 
 .makeStyles-card-103 {
   background-color: #fff8e1 !important; }
+
+.makeStyles-content-3 {
+  background-color: #bdbdbd; }
 
 .ddd {
   width: 500px; }

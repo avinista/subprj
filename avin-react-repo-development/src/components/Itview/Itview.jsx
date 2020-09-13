@@ -20,6 +20,8 @@ const useStyles = makeStyles({
     backgroundColor: "#fff4de"
   }
 });
+//render 4 cards in views/itviews 
+//data from routes.js
 export function Itviews() {
   const classes = useStyles();
 

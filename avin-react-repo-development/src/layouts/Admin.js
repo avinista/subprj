@@ -93,7 +93,7 @@ export default function Admin({ ...rest }) {
     };
   }, [mainPanel]);
   return (
-    <div className={classes.wrapper}>
+    <div  className={classes.wrapper}>
       <Sidebar
         routes={areaRoutes}
         logoText={"Creative Tim"}

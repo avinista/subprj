@@ -16,8 +16,9 @@ import navigation from "./../_navigation";
 
 import styles from "assets/jss/material-dashboard-react/layouts/rtlStyle.js";
 
-import logo from "./../assets/img/Bank_Mellat_logo.svg.png";
+import logo from "./../assets/img/123.png";
 import Navbar from "../components/Navbars/Navbar";
+import BacgroundDashboard from "./../assets/img/background.png"
 
 let ps;
 
@@ -46,7 +47,7 @@ const switchRoutes = (
           />
         ) : null;
       })}
-      <Redirect from="/rtl" to="/rtl/rtl-page" />
+      <Redirect from="/" to="/" />
     </Switch>
   </React.Suspense>
 );
@@ -89,11 +90,10 @@ export default function RTL({ ...rest }) {
     };
   }, [mainPanel]);
   return (
-    <div className={classes.wrapper}>
+    <div  className={classes.wrapper}>
       <Sidebar
         aroutes={areaRoutes}
         lroutes={layerRoutes}
-        logoText={" داشبورد ارزیابی عملکرد فناوری اطلاعات بانک ملت  "}
         logo={logo}
         handleDrawerToggle={handleDrawerToggle}
         open={mobileOpen}
@@ -108,7 +108,6 @@ export default function RTL({ ...rest }) {
           rtlActive
           {...rest}
         />
-        {/* On the /maps route we want the map to be on full screen - this is not possible if the content and conatiner classes are present because they have some paddings which would make the map smaller */}
 
         <div className={classes.content}>
           <div className={classes.container}>{switchRoutes}</div>

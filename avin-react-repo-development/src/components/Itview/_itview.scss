@@ -11,11 +11,11 @@
         top:10px;
         right:30px;
         padding:5px 40px;
-        border:1px solid #e6b800;
+        border:1px solid $color-yellow-dark-3;
         border-radius: 10px;
-        box-shadow:7px 7px 20px 2px  #fff5cc ;
-        background-color:  #ffd633;
-        color:#2e5cb8;
+        box-shadow:2px 2px 20px 2px  $shadow-color ;
+        background-color:  $color-yellow-dark-2;
+        color:$color-blue-dark-1;
     }
 
 }   
@@ -28,7 +28,7 @@ transform: translateY(-15%);
     background-image: url('./../../assets/img/online1.png');
     height: 100px;
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid $color-yellow-dark-1;
     border-radius:10px;
     @include el(title) {
         z-index: 10;
@@ -36,11 +36,11 @@ transform: translateY(-15%);
         top:10px;
         right:30px;
         padding:5px 40px;
-        border:1px solid #e6b800;
+        border:1px solid $color-yellow-dark-3;
         border-radius: 10px;
-        box-shadow:7px 7px 20px 2px  #fff5cc ;
-        background-color:  #ffd633;
-        color:#2e5cb8;
+        box-shadow:7px 7px 20px 2px  $shadow-color ;
+        background-color:  $color-yellow-dark-2;
+        color:$color-blue-dark-1;
     }
 
 }

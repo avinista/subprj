@@ -16,6 +16,11 @@ const useStyles = makeStyles({
     border: "1px solid #9e9e9e"
   }
 });
+const cardStyle = {
+  fontFamily: "BTitrBold,'BTitrBold',tahoma",
+  fontSize:"12px",
+  color:"#4e342e"
+}
 
 const handleClick = (e,url) => {
   e.preventDefault();
@@ -33,7 +38,7 @@ export function Itviewcard({ text, icon, color, url }) {
         </CardHeader>
         <CardFooter stats>
           <div className={classes.stats}>
-            <Link
+            <Link style={cardStyle} 
               className="Card_footer"
               to="#"
               onClick={e => handleClick(e, url)}

@@ -270,7 +270,7 @@ export const itviewCards = [
     rtlName: "ریسک های IT",
     icon: "important_devices",
     layout: "/admin",
-    color: "#ffb74d",
+     color: "#f9a825",
     id: "1"
   },
   {
@@ -306,122 +306,122 @@ export const EntityCard = [
   {
     path: "pmo",
     name: "PMO",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "sequrity_lab",
     name: "آزمایشگاه امنیت",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "pay_tools",
     name: "ابزارهای پرداخت",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "centall_bilding",
     name: "اداره کل ساختمان",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "marketing",
     name: "بازاریابی",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "personal_banking",
     name: "بانکداری شخصی",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "security_planning",
     name: "برنامه ریزی امنیت",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "herasat_Equipment",
     name: "حراست- ایمنی و تجهیزات",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "company-central-office",
     name: "اداره کل سازمان",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "herasat_videos",
     name: "حراست تصویری",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "publicـrelations",
     name: "روابط عمومی",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "Infrastructure_hardware",
     name: "زیرساخت-سخت‌افزار",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "Infrastructure_security",
     name: "سرویس های زیرساختی امنیت",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "switches",
     name: "سوییچ",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "communicationـnetworks",
     name: "شبکه‌های ارتباطی",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "goverment_branch",
     name: "شعبه  دولت",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "bank_group",
     name: "گروه بانکی",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "security_managmnent",
     name: "مدیریت امنیت اطلاعات",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "data_centers",
     name: "مراکز داده",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "security_central",
     name: "مرکز عملیات امنیت",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "security_Audit",
     name: "ممیزي امنیت",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "managers_itsection",
     name: "واحد مدیران ارشد فناوری اطلاعات و امنیت",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "managers_risksection",
     name: "واحد مدیریت ریسک فناوری اطلاعات",
-    color: "#ffab00"
+    color: "#e0e0e0"
   },
   {
     path: "events_managment",
     name: "کارشناسی مدیریت رخداد",
-    color: "#ffab00"
+    color: "#e0e0e0"
   }
 ];
 
@@ -429,36 +429,36 @@ export const AssetCategory = [
   {
     path: "information",
     name: "اطلاعات و مستندات",
-    color: "#fbc02d"
+    color: "#e0e0e0"
   },
   {
     path: "executive_services",
     name: "خدمات و سرویسهاي اجرایی",
-    color: "#fbc02d"
+    color: "#e0e0e0"
   },
   {
     path: "hardware",
     name: "سخت افزار",
-    color: "#fbc02d"
+    color: "#e0e0e0"
   },
   {
     path: "executiv_process",
     name: "فرآیندهای اجرایی",
-    color: "#fbc02d"
+    color: "#e0e0e0"
   },
   {
     path: "phisycal_environment",
     name: "محیط  فیزیکی",
-    color: "#fbc02d"
+    color: "#e0e0e0"
   },
   {
     path: "software",
     name: "نرم افزار",
-    color: "#fbc02d"
+    color: "#e0e0e0"
   },
   {
     path: "persons",
     name: "نیروی انسانی",
-    color: "#fbc02d"
+    color: "#e0e0e0"
   }
 ];

@@ -6,7 +6,7 @@ import {
 
 const cardStyle = {
   card: {
-    border: "0",
+    border: "solid 0.1em #ffb74d",
     marginBottom: "30px",
     marginTop: "30px",
     borderRadius: "6px",

@@ -18,9 +18,10 @@ const useStyles = makeStyles(styles);
 
 function Sidebar(props) {
   const classes = useStyles();
-  // verifies if routeName is the one active (in browser input)
+  // check active menu in array 
+  //push status submenu to state
   const [Select, setSelect] = useState([]);
-  const { logo, image, logoText, aroutes,lroutes } = props;
+  const { logo, image,aroutes,lroutes } = props;
   const handleClick = (item) => {
     setSelect((prevState) => ({...Select, [item]: !prevState[item] }));
   };
@@ -52,7 +53,7 @@ function Sidebar(props) {
 
           <ArrowDropDownIcon  style={{ "margin-right": "auto" }}/> 
           </Link> 
-          {Select[item.name] && < ul className="submenu"> { SetMenuToUI(item.children) } </ul>}
+           {Select[item.name] && < ul className="submenu"> { SetMenuToUI(item.children) } </ul>}
            </li>
           );
       }))
@@ -71,7 +72,9 @@ function Sidebar(props) {
         <div className={classes.logoImage}>
           <img src={logo} alt="logo" className={classes.img} />
         </div>
-        {logoText}
+        <p className={"logo__title"}>داشبورد ارزیابی عملکرد </p>
+        <p className={"logo__title"}>فناوری اطلاعات بانک ملت</p>
+
       </Link>
     </div>
   );

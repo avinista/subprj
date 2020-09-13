@@ -1,10 +1,13 @@
 .dashboard__title{
-    background-color: #ff9900;
+    background-color: #ffd54f;
     text-align: center;
+    font-weight: 700;
     padding:5px;
     margin: 10px;
-    border:1px solid  #b36b00;
+    border:1px solid  #ffb300;
+    color:#424242;
 border-radius: 5px;
+box-shadow: 0 1px 3px 1px #737373
 }
 
 .chartjs-render-monitor{
@@ -13,4 +16,7 @@ border-radius: 5px;
 }
 .makeStyles-card-103{
     background-color:#fff8e1!important;
+}
+.makeStyles-content-3{
+    background-color:#bdbdbd
 }
