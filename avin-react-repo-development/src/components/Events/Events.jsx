@@ -58,16 +58,6 @@ const tabsStyle =  {
   fontSize:"11px",
 
 }
-const Styles = makeStyles((theme) => ({
-  root: {
-    width: '100%',
-    '& > * + *': {
-      marginTop: theme.spacing(2),
-    },
-   
-  },
-}));
-
 export function Events() {
   const classes = useStyles();
   const [value, setValue] = React.useState(1);

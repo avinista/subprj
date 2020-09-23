@@ -28,7 +28,6 @@ function Sidebar(props) {
    const urlPush = item =>{
      (item.url) ? history.push(item.url):null;
     };
-
     const SetMenuToUI = items => {
     return (items.map((item) => {
       if (!item.children) {

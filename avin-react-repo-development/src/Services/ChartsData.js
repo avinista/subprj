@@ -67,7 +67,6 @@ export const optionsData = content => {
 };
 
 export const riskLevel = data => {
-  console.log(data)
   return {
     labels: ["ریسک بحرانی", "ریسک بالا", "ریسک پایین"],
     datasets: [

@@ -297,7 +297,7 @@ export const itviewCards = [
     rtlName: "نیروی انسانی",
     icon: "supervised_user_circle",
     layout: "/admin",
-    color: "#ffb74d",
+    color: "#f9a825",
     id: "4"
   }
 ];

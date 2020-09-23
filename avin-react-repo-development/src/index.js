@@ -27,10 +27,10 @@ import RTL from "layouts/RTL.js";
 import "assets/css/material-dashboard-react.css?v=1.8.0";
 
 ReactDOM.render(
-  <Router history={history}>
+  <Router  history={history}>
     <Switch>
+
       <Route path="/" component={RTL} />
-      {/* <Route path="/rtl" component={RTL} /> */}
     </Switch>
   </Router>,
   document.getElementById("root")

@@ -1,6 +1,5 @@
 import {
   blackColor,
-  whiteColor,
   hexToRgb
 } from "assets/jss/material-dashboard-react.js";
 
